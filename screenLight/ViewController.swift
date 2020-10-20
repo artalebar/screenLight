@@ -16,12 +16,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed() {
-        isLightOn.toggle()
-        if isLightOn {
-            view.backgroundColor = .white
-        } else {
-            view.backgroundColor = .black
-        }
     }
     
 }
