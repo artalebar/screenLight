@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-   var isLightOn = false
+   var isLightOn = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
