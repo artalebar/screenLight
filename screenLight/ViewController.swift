@@ -13,10 +13,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        changeUI()
     }
 
-    @IBAction func buttonPressed() {
+    fileprivate func changeUI() {
+        if isLightOn {
+            view.backgroundColor = .white
+        } else {
+            view.backgroundColor = .black
+        }
     }
     
-}
+    @IBAction func buttonPressed() {
+        isLightOn.toggle()
+        changeUI()
+        }
+        
+    }
+    
+
 
