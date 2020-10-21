@@ -15,22 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="H9B-ga-1bN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJF-GY-HdN">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <connections>
-                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mm0-AW-34V"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="9DZ-Uh-4PP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="JJF-GY-HdN" firstAttribute="leading" secondItem="9DZ-Uh-4PP" secondAttribute="leading" id="3Ki-rw-ihm"/>
-                            <constraint firstItem="9DZ-Uh-4PP" firstAttribute="bottom" secondItem="JJF-GY-HdN" secondAttribute="bottom" id="EEe-d0-eKl"/>
-                            <constraint firstItem="9DZ-Uh-4PP" firstAttribute="trailing" secondItem="JJF-GY-HdN" secondAttribute="trailing" id="Lae-xf-gWe"/>
-                            <constraint firstItem="JJF-GY-HdN" firstAttribute="top" secondItem="9DZ-Uh-4PP" secondAttribute="top" id="Par-2G-USD"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
